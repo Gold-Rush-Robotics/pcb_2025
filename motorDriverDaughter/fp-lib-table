@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PololuMotorDriver")(type "KiCad")(uri "${KIPRJMOD}/Symbols/PolouMotorDriver.pretty")(options "")(descr ""))
+)
