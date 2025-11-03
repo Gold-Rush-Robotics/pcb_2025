@@ -5058,7 +5058,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "18fd30f0-39ce-451c-a15e-2ef10398ae53")
 		(property "Reference" "R1"
 			(at 97.79 70.358 90)
@@ -5279,7 +5279,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "27626e1e-76f6-4b07-8e2d-d840e25e5bf0")
 		(property "Reference" "R2"
 			(at 97.79 62.738 90)
@@ -5499,7 +5499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCAN:SOT-23-THIN-8_DDF_TEX"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -6504,7 +6504,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "963f2961-609f-4067-af22-a49666de9da3")
 		(property "Reference" "C5"
 			(at 105.156 65.278 90)
