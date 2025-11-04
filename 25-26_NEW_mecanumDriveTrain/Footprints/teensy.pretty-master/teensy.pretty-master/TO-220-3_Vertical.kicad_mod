@@ -1,0 +1,224 @@
+(footprint "TO-220-3_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
+	(tags "TO-220-3 Vertical RM 2.54mm")
+	(property "Reference" "REF**"
+		(at 2.54 -4.1 0)
+		(layer "F.SilkS")
+		(uuid "1aa5ca19-5a36-4587-892d-ba8cf7724172")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-220-3_Vertical"
+		(at 2.54 2.2 0)
+		(layer "F.Fab")
+		(uuid "06f5865c-068e-452b-a0a7-ef4fc4bb448e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8d1e9fc-6d9c-4d9e-97a8-8bb03ec8a34d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10601d40-83e0-41d5-b9a8-984230102cbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.57 -3.26)
+		(end 7.65 -3.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2227c5e-0e3b-4c8a-b53a-cf9320cb8b53")
+	)
+	(fp_line
+		(start -2.57 -1.88)
+		(end 7.65 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb1d8650-08c8-4348-9f0c-2d8d61d9fb0f")
+	)
+	(fp_line
+		(start -2.57 1.36)
+		(end -2.57 -3.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d23ce854-d9ed-49ec-94ed-1631e0ad1523")
+	)
+	(fp_line
+		(start 0.69 -3.26)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccaa9963-4cd6-4698-86f5-ed54468051de")
+	)
+	(fp_line
+		(start 4.39 -3.26)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31199639-49ff-428d-a8db-af835cb102ca")
+	)
+	(fp_line
+		(start 7.65 -3.26)
+		(end 7.65 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "178a3a1d-09e5-4b42-b6e3-96cedd2afd89")
+	)
+	(fp_line
+		(start 7.65 1.36)
+		(end -2.57 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84bd27e5-562d-46f9-96b0-6fcf758ab3fe")
+	)
+	(fp_rect
+		(start -2.71 -3.4)
+		(end 7.79 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b01e5a29-5d3f-4933-8a8c-687acbb33c6d")
+	)
+	(fp_line
+		(start -2.46 -1.88)
+		(end 7.54 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de5c7b7c-7512-4731-a7cb-b49a55193fde")
+	)
+	(fp_line
+		(start 0.69 -3.15)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "072a66b5-6289-4a44-a69f-ece1e649a6f6")
+	)
+	(fp_line
+		(start 4.39 -3.15)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a07dd992-554b-4c7d-bbcb-9b75b1db86eb")
+	)
+	(fp_rect
+		(start -2.46 -3.15)
+		(end 7.54 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "157d862f-ae46-4e8d-bf95-de893cc4dc95")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -0.95 0)
+		(layer "F.Fab")
+		(uuid "7f7e12c5-b815-4bfb-b1e5-687152cc7ed8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4b158bc-448e-478b-aebc-df115acb6c7d")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8df17e04-a00c-48ee-8540-d3a5526d063a")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "608d4a74-1144-44b8-8697-9fb55ae6dcf1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
