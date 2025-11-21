@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Teensy")(type "KiCad")(uri "${KIPRJMOD}/Symbols/teensy.kicad_sym")(options "")(descr ""))
   (lib (name "TCAN")(type "KiCad")(uri "${KIPRJMOD}/Symbols/TCAN.kicad_sym")(options "")(descr ""))
+  (lib (name "PololuMotorDriver")(type "KiCad")(uri "${KIPRJMOD}/Symbols/PolouMotorDriver.kicad_sym")(options "")(descr ""))
 )
