@@ -528,9 +528,9 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "3DModels/motorDriverDaughter.step",
+      "step": "../../../Downloads/motorDriverDaughter.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "3DModels/motorDriverDaughter.wrl"
     },
     "page_layout_descr_file": ""
   },
