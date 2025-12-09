@@ -893,143 +893,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LD1117S50TR_SOT223"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LD1117S50TR_SOT223"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "REGULATOR LDO 5.0V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LD1117S50TR_SOT223_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LD1117S50TR_SOT223_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TCAN3414DR:PTCAN3414DDFR"
 			(pin_names
 				(offset 0.254)
@@ -3492,10 +3355,10 @@
 		(uuid "98a3f39e-cb14-4ba2-a923-c7047829abdc")
 	)
 	(junction
-		(at 59.69 30.48)
+		(at 43.18 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ab3e59e-4480-412e-a898-d54d15960e05")
+		(uuid "be20d136-c0a5-4840-a7b7-9856a3b2f378")
 	)
 	(junction
 		(at 158.75 153.67)
@@ -3510,22 +3373,10 @@
 		(uuid "c7d47e60-d34c-45d9-8b4f-a57dda8169f7")
 	)
 	(junction
-		(at 52.07 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf5ea191-4de8-4706-860b-8177ab708282")
-	)
-	(junction
 		(at 177.8 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d331dc94-5566-43e3-8ddb-3a6d837d9933")
-	)
-	(junction
-		(at 44.45 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9ec5024-a213-4e7b-b48b-3f2f5ca77aef")
 	)
 	(junction
 		(at 148.59 146.05)
@@ -3813,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 30.48) (xy 26.67 30.48)
+			(xy 43.18 30.48) (xy 26.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3860,6 +3711,16 @@
 			(type default)
 		)
 		(uuid "4165a321-5c0e-4df3-a228-4d32ddc99014")
+	)
+	(wire
+		(pts
+			(xy 43.18 39.37) (xy 43.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41860a3b-e585-45be-9d47-2013fb9e4038")
 	)
 	(wire
 		(pts
@@ -3950,16 +3811,6 @@
 			(type default)
 		)
 		(uuid "9c34224f-fdb2-4779-9d25-9693bae97c6b")
-	)
-	(wire
-		(pts
-			(xy 52.07 38.1) (xy 59.69 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d623fe-5b97-4bdc-a644-322584989c26")
 	)
 	(wire
 		(pts
@@ -4080,16 +3931,6 @@
 			(type default)
 		)
 		(uuid "e13430c3-a89b-4f20-8aba-e0c498194e2d")
-	)
-	(wire
-		(pts
-			(xy 44.45 38.1) (xy 52.07 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93cfc05-b148-4683-9892-f48595bce195")
 	)
 	(wire
 		(pts
@@ -4524,144 +4365,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 44.45 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "060b8561-c2a5-4ead-a5fb-f0dab5a506c9")
-		(property "Reference" "#PWR021"
-			(at 48.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 40.64 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0584c629-7c3d-40f8-a2ae-23a1da20c017")
-		)
-		(instances
-			(project "knob_board"
-				(path "/0d64650f-79aa-433b-adcd-59b6cbb6a039"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LD1117S50TR_SOT223")
-		(at 52.07 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "071ababd-9b18-4003-ab81-eaf79fb95296")
-		(property "Reference" "U2"
-			(at 52.07 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LD1117S50TR_SOT223"
-			(at 52.07 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 52.07 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
-			(at 54.61 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57dc5922-ffd3-45f9-901f-3a9202f014d9")
-		)
-		(pin "3"
-			(uuid "c39f55ff-27f6-426f-926a-46c9d7f33098")
-		)
-		(pin "2"
-			(uuid "6a2fa8ff-b293-4d1b-8b5a-7ad20b9d2024")
-		)
-		(instances
-			(project "knob_board"
-				(path "/0d64650f-79aa-433b-adcd-59b6cbb6a039"
-					(reference "U2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6594,6 +6297,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "709ead3b-85e7-496d-8a90-d0d923b00724")
+		(property "Reference" "#PWR020"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88801d40-6da3-4411-9944-4dc13fc74f3c")
+		)
+		(instances
+			(project "knob_board"
+				(path "/0d64650f-79aa-433b-adcd-59b6cbb6a039"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 175.26 123.19 0)
 		(unit 1)
@@ -7408,72 +7176,6 @@
 			(project "knob_board"
 				(path "/0d64650f-79aa-433b-adcd-59b6cbb6a039"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97f55ce5-b220-4f21-95f6-e1046170866e")
-		(property "Reference" "#PWR020"
-			(at 52.07 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2b3cb47-d10b-48b0-815a-c47498592cd3")
-		)
-		(instances
-			(project "knob_board"
-				(path "/0d64650f-79aa-433b-adcd-59b6cbb6a039"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8420,7 +8122,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 27.94 30.48 270)
+		(at 43.18 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8429,7 +8131,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4b03e19-b9ba-45fb-9bd4-21631f752cb8")
 		(property "Reference" "#PWR01"
-			(at 24.13 30.48 0)
+			(at 43.18 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8140,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 31.75 30.4799 90)
+			(at 45.72 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +8149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 30.48 0)
+			(at 43.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 30.48 0)
+			(at 43.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 27.94 30.48 0)
+			(at 43.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,75 +8182,6 @@
 			(project "knob_board"
 				(path "/0d64650f-79aa-433b-adcd-59b6cbb6a039"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 59.69 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c54df8ba-bea8-4e4d-af17-acfd26ac4cde")
-		(property "Reference" "C2"
-			(at 63.754 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 62.738 35.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 60.6552 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 59.69 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49b7b306-e118-4516-9237-147fd4299b1f")
-		)
-		(pin "2"
-			(uuid "dcde91c6-4619-41ec-a4bf-cb5b163916d1")
-		)
-		(instances
-			(project "knob_board"
-				(path "/0d64650f-79aa-433b-adcd-59b6cbb6a039"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9289,73 +8922,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebc351b4-fc5e-49cd-8840-e371cebfea28")
-		(property "Reference" "#PWR022"
-			(at 55.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 63.5 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "427a0cbe-6e39-4e45-a183-63beb1eed36b")
-		)
-		(instances
-			(project "knob_board"
-				(path "/0d64650f-79aa-433b-adcd-59b6cbb6a039"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 64.77 90)
 		(unit 1)
@@ -9565,7 +9131,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 34.29 0)
+		(at 43.18 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9573,7 +9139,7 @@
 		(dnp no)
 		(uuid "f997a809-664e-40cf-a174-b787b77a9f0f")
 		(property "Reference" "C1"
-			(at 39.116 32.258 0)
+			(at 37.846 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,7 +9148,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 36.83 34.544 0)
+			(at 35.56 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9157,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 45.4152 38.1 0)
+			(at 44.1452 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,7 +9166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 34.29 0)
+			(at 43.18 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9175,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 34.29 0)
+			(at 43.18 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)

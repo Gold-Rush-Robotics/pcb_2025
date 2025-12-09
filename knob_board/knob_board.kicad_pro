@@ -529,12 +529,12 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "knob_board.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "3D/knob_board.wrl"
     },
     "page_layout_descr_file": ""
   },
