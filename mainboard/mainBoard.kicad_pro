@@ -536,7 +536,7 @@
       "specctra_dsn": "",
       "step": "mainBoard.step",
       "svg": "C:/Users/pudel/Downloads/",
-      "vrml": "mainBoard.wrl"
+      "vrml": "packages3D/mainBoard.wrl"
     },
     "page_layout_descr_file": ""
   },
